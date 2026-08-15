@@ -1,0 +1,15 @@
+# macOS System Files
+.DS_Store
+
+# Ignore all generated files and executables by default
+*
+
+# Allow Git to traverse directories
+!*/
+
+# Track only C source files, headers, and repo documentation
+!*.c
+!*.h
+!README.md
+!LICENSE
+!.gitignore
