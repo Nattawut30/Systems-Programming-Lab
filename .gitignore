@@ -7,9 +7,13 @@
 # Allow Git to traverse directories
 !*/
 
-# Track only C source files, headers, and repo documentation
+# Track C, C++, text files, and repo documentation
 !*.c
 !*.h
+!*.cpp
+!*.hpp
+!*.cc
+!*.txt
 !README.md
 !LICENSE
 !.gitignore
